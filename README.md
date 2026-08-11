@@ -1,10 +1,10 @@
-# EverOS Memory Admin
+# multiagent Memory Admin
 
 > 让 AI Agent 拥有项目记忆、团队协作和知识治理能力的一站式系统。
 
 ## 这是什么
 
-一个基于 [EverOS](https://github.com/ever-os/everos) 的记忆管理中台。你可以把它部署在本地，让你的 Codex / WorkBuddy / Hermes 等 AI Agent 获得：
+一个记忆管理中台。你可以把它部署在本地，让你的 Codex / WorkBuddy / Hermes 等 AI Agent 获得：
 
 - **双轨记忆** — user 轨（个人对话经验）+ agent 轨（任务执行经验），物理隔离
 - **Multi-Agent 协作** — 多个 agent 通过共享记忆空间协同工作，不需要互相发消息
@@ -51,7 +51,7 @@ python scripts/audit_viewer.py default
 ## 目录结构
 
 ```
-everos-memory-admin/
+yao-memory-admin/
 ├── README.md
 ├── install.py              ← 一键安装向导
 ├── everos/
